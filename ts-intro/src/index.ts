@@ -16,7 +16,10 @@
     let total =0;
 
     productos.forEach( (producto: Producto ) =>{
-
+        total += producto.precio
     } )
 
+    return total *0.15;
  }
+
+ const articulos = {}
